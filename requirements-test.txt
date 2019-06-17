@@ -81,7 +81,7 @@ pretend==1.0.9
 psycopg2==2.8.3
 py==1.8.0
 pycodestyle==2.5.0
-pydash==4.7.4
+pydash==4.7.5
 pyee==6.0.0
 pyflakes==2.1.1
 Pygments==2.4.0
