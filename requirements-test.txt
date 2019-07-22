@@ -90,7 +90,7 @@ pyorbital==1.5.0
 pyparsing==2.4.1
 pyPEG2==2.15.2
 pyppeteer==0.0.25
-pyproj==2.2.0
+pyproj==2.2.1
 pyquery==1.4.0
 pyrsistent==0.15.2
 pytest==4.6.3
