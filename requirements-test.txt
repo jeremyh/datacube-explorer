@@ -31,7 +31,7 @@ cloudpickle==1.2.1
 colorama==0.4.1
 constantly==15.1.0
 coverage==4.5.4
-cssselect==1.0.3
+cssselect==1.1.0
 dask==2.1.0
 dataclasses==0.6
 datacube==1.7
