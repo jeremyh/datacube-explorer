@@ -37,7 +37,7 @@ dataclasses==0.6
 datacube==1.7
 DAWG==0.7.8
 docopt==0.6.2
-docutils==0.15
+docutils==0.15.2
 entrypoints==0.3
 fake-useragent==0.1.11
 Fiona==1.8.6
