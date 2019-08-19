@@ -59,7 +59,7 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 jsonschema==3.0.2
 kombu==4.6.4
-lxml==4.3.4
+lxml==4.4.1
 MarkupSafe==1.1.1
 mccabe==0.6.1
 mock==3.0.5
