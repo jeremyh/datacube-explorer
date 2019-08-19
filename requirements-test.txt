@@ -30,7 +30,7 @@ cligj==0.5.0
 cloudpickle==1.2.1
 colorama==0.4.1
 constantly==15.1.0
-coverage==4.5.3
+coverage==4.5.4
 cssselect==1.0.3
 dask==2.1.0
 dataclasses==0.6
