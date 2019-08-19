@@ -92,7 +92,7 @@ pyPEG2==2.15.2
 pyppeteer==0.0.25
 pyproj==2.2.2
 pyquery==1.4.0
-pyrsistent==0.15.3
+pyrsistent==0.15.4
 pytest==5.0.1
 pytest-cov==2.7.1
 python-dateutil==2.8.0
