@@ -4,7 +4,7 @@ eodatasets==0.10+40.g759cbb2
 -e git://github.com/maxcountryman/flask-themes@9eac2dcc9b81c3af29c2386ce1afba9b446562bf#egg=Flask-Themes
 affine==2.2.2
 alabaster==0.7.12
-amqp==2.5.0
+amqp==2.5.1
 appdirs==1.4.3
 aspy.yaml==1.3.0
 atomicwrites==1.3.0
