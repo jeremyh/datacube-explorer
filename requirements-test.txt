@@ -99,7 +99,7 @@ python-dateutil==2.8.0
 python-rapidjson==0.8.0
 pytz==2019.2
 PyYAML==5.1.2
-rasterio==1.0.25
+rasterio==1.0.28
 redis==3.3.7
 requests==2.22.0
 requests-html==0.10.0
