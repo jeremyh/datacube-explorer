@@ -76,7 +76,7 @@ pbr==5.4.3
 pipenv==2018.11.26
 pipreqs==0.4.9
 pluggy==0.13.0
-pre-commit==1.18.2
+pre-commit==1.18.3
 pretend==1.0.9
 psycopg2==2.8.3
 py==1.8.0
