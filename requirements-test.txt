@@ -129,5 +129,5 @@ websockets==8.1
 Werkzeug==0.16.0
 xarray==0.14.0
 yarg==0.1.9
-zipp==0.5.2
+zipp==0.6.0
 zope.interface==4.6.0
