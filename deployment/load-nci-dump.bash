@@ -50,7 +50,7 @@ log_info "Vars:"
 (set -o posix; set) | grep -e '^[a-z_]\+=' | sed 's/^/    /'
 
 if psql ${psql_args} -lqtA | grep -q "^$dbname|";
-then 
+then
     log_info "DB exists"
 else
     if [[ ! -e "${dump_file}" ]];
@@ -132,7 +132,6 @@ do
     echo "Dropping ${database}";
     dropdb "${database}";
 done;
-
 
 log_info "All Done $(date) ${summary_dir}"
 log_info "Cubedash Database (${dbname}) updated on $(date)"
