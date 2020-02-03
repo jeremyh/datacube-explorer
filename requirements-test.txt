@@ -44,7 +44,7 @@ Fiona==1.8.13
 flake8==3.7.9
 Flask==1.1.1
 Flask-Caching==1.8.0
-freezegun==0.3.12
+freezegun==0.3.14
 GeoAlchemy2==0.6.1
 geographiclib==1.49
 hyperlink==19.0.0
