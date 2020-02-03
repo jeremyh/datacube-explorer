@@ -126,7 +126,7 @@ virtualenv==16.7.9
 virtualenv-clone==0.5.3
 w3lib==1.21.0
 websockets==8.1
-Werkzeug==0.15.5
+Werkzeug==0.16.1
 xarray==0.12.3
 yarg==0.1.9
 zipp==0.5.2
