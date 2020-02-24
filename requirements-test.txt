@@ -33,7 +33,7 @@ constantly==15.1.0
 coverage==5.0.3
 cssselect==1.1.0
 dask==2.11.0
-dataclasses==0.6
+dataclasses==0.7
 datacube==1.7
 DAWG==0.7.8
 docopt==0.6.2
