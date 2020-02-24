@@ -72,7 +72,7 @@ numpy==1.18.1
 packaging==20.1
 pandas==1.0.1
 parse==1.14.0
-pbr==5.4.2
+pbr==5.4.4
 pipenv==2018.11.26
 pipreqs==0.4.9
 pluggy==0.12.0
