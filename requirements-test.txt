@@ -80,7 +80,7 @@ pluggy==0.13.1
 pre-commit==2.1.1
 pretend==1.0.9
 psycopg2==2.8.4
-py==1.8.0
+py==1.8.1
 pycodestyle==2.5.0
 pydash==4.7.5
 pyee==6.0.0
