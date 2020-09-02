@@ -34,8 +34,6 @@ CUBEDASH_SCHEMA = "cubedash"
 METADATA = MetaData(schema=CUBEDASH_SCHEMA)
 GRIDCELL_COL_SPEC = f"{CUBEDASH_SCHEMA}.gridcell"
 
-# Albers equal area. Allows us to show coverage in m^2 easily.
-FOOTPRINT_SRID = 3577
 
 DATASET_SPATIAL = Table(
     "dataset_spatial",
@@ -144,7 +142,7 @@ TIME_OVERVIEW = Table(
         nullable=False,
     ),
     Column("footprint_count", Integer, nullable=False),
-    Column("footprint_geometry", Geometry(srid=FOOTPRINT_SRID, spatial_index=False)),
+    Column("footprint_geometry", Geometry(spatial_index=False)),
     Column("crses", postgres.ARRAY(String)),
     # Size of this dataset in bytes, if the product includes it.
     Column("size_bytes", BigInteger),
@@ -267,7 +265,7 @@ def pg_column_exists(conn, table_name: str, column_name: str) -> bool:
     )
 
 
-def create_schema(engine: Engine):
+def create_schema(engine: Engine, grouping_srid: int):
     """
     Create any missing parts of the cubedash schema
     """
@@ -317,6 +315,9 @@ def create_schema(engine: Engine):
             {CUBEDASH_SCHEMA}.mv_spatial_ref_sys(lower(auth_name::text), auth_srid);
     """
     )
+
+    # Not thread safe... but who'd do that?
+    TIME_OVERVIEW.columns.footprint_geometry.type.srid = grouping_srid
 
     METADATA.create_all(engine, checkfirst=True)
 

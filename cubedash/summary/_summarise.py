@@ -16,7 +16,6 @@ from cubedash._utils import ODC_DATASET_TYPE
 from cubedash.summary import TimePeriodOverview
 from cubedash.summary._schema import (
     DATASET_SPATIAL,
-    FOOTPRINT_SRID,
     SPATIAL_REF_SYS,
     get_srid_name,
 )
@@ -26,7 +25,13 @@ _LOG = structlog.get_logger()
 
 
 class Summariser:
-    def __init__(self, engine, log=_LOG, grouping_time_zone="Australia/Darwin") -> None:
+    def __init__(
+        self,
+        engine,
+        log=_LOG,
+        footprint_srid=3577,
+        grouping_time_zone="Australia/Darwin",
+    ) -> None:
         self._engine = engine
         self.log = log
         # Group datasets using this timezone when counting them.
@@ -35,7 +40,7 @@ class Summariser:
         # cache
         self._grouping_time_zone_tz = tz.gettz(self.grouping_time_zone)
         # EPSG code for all polygons to be converted to (for footprints).
-        self.output_crs_epsg_code = FOOTPRINT_SRID
+        self.output_crs_epsg_code = footprint_srid
 
     def calculate_summary(self, product_name: str, time: Range) -> TimePeriodOverview:
         """
