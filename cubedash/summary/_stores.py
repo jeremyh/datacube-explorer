@@ -29,6 +29,7 @@ from sqlalchemy.dialects.postgresql import TSTZRANGE
 from sqlalchemy.engine import Engine, RowProxy
 from sqlalchemy.sql import Select
 
+from .._version import version as EXPLORER_VERSION
 from cubedash import _utils
 from cubedash._utils import ODC_DATASET, ODC_DATASET_TYPE
 from cubedash.summary import RegionInfo, TimePeriodOverview, _extents, _schema
@@ -130,6 +131,11 @@ class SummaryStore:
         """
         Have all schema update been applied?
         """
+        _LOG.debug(
+            "software.version",
+            postgis=_schema.get_postgis_versions(self._engine),
+            explorer=EXPLORER_VERSION,
+        )
         return _schema.is_compatible_schema(self._engine)
 
     def init(self):
