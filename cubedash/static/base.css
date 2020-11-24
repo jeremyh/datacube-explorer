@@ -46,7 +46,12 @@ a {
   background: #7fd0eb;
   color: #efefef;
   font-weight: bold;
-  padding: 15px 25px;
+  padding: 10px 20px 10px;
+}
+@media (min-width: 800px) {
+  #breadcrumb {
+    padding: 15px 30px 15px;
+  }
 }
 #breadcrumb .item {
   color: #fff;
