@@ -1764,7 +1764,10 @@ def _summary_from_row(res, product_name):
     timeline_dataset_counts = (
         Counter(
             dict(
-                zip(res["timeline_dataset_start_days"], res["timeline_dataset_counts"])
+                zip(
+                    (r.date() for r in res["timeline_dataset_start_days"]),
+                    res["timeline_dataset_counts"],
+                )
             )
         )
         if res["timeline_dataset_start_days"]
