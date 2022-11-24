@@ -105,11 +105,7 @@ def dataset_timeline(
             f"{product_name!r} {year or 'all'} {month or 'all'} {day or 'all'}",
         )
 
-    def _datekey(k):
-        # The timezone is the global grouping timezone: we don't want it in json.
-        return k.replace(tzinfo=None).isoformat()
-
     return as_json(
-        {_datekey(k): v for k, v in summary.timeline_dataset_counts.items()},
+        {k: v for k, v in summary.timeline_dataset_counts.items()},
         downloadable_filename_prefix=_utils.api_path_as_filename_prefix(),
     )
