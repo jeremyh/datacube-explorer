@@ -9,7 +9,7 @@ affine==2.3.1
     #   datacube
     #   eodatasets3
     #   rasterio
-attrs==22.1.0
+attrs==22.2.0
     # via
     #   cattrs
     #   eodatasets3
