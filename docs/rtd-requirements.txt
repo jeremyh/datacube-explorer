@@ -173,7 +173,7 @@ packaging==23.0
     #   distributed
     #   geoalchemy2
     #   xarray
-pandas==1.5.1
+pandas==1.5.2
     # via
     #   datacube
     #   xarray
