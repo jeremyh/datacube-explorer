@@ -29,7 +29,7 @@ botocore==1.29.50
     #   s3transfer
 cachelib==0.10.0
     # via flask-caching
-cachetools==5.2.0
+cachetools==5.2.1
     # via
     #   datacube
     #   datacube-explorer (setup.py)
