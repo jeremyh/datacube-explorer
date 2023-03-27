@@ -167,7 +167,7 @@ numpy==1.24.2
     #   xarray
 orjson==3.8.8
     # via datacube-explorer (setup.py)
-packaging==21.3
+packaging==23.0
     # via
     #   dask
     #   distributed
