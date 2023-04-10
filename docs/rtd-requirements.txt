@@ -191,7 +191,7 @@ pyparsing==3.0.9
     # via
     #   packaging
     #   snuggs
-pyproj==3.4.0
+pyproj==3.5.0
     # via
     #   datacube
     #   datacube-explorer (setup.py)
