@@ -198,7 +198,7 @@ pyproj==3.6.0
     #   eodatasets3
 pyrsistent==0.19.3
     # via jsonschema
-pystac==1.6.1
+pystac==1.8.1
     # via eodatasets3
 python-dateutil==2.8.2
     # via
