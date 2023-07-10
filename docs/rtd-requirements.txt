@@ -89,7 +89,7 @@ eodatasets3==0.29.7
     # via datacube-explorer (setup.py)
 exceptiongroup==1.1.2
     # via cattrs
-fiona==1.8.22
+fiona==1.9.4.post1
     # via datacube-explorer (setup.py)
 flask==2.1.3
     # via
