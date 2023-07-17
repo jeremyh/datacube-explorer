@@ -286,7 +286,7 @@ xarray==2023.7.0
     #   eodatasets3
 zict==3.0.0
     # via distributed
-zipp==3.10.0
+zipp==3.16.2
     # via
     #   importlib-metadata
     #   importlib-resources
