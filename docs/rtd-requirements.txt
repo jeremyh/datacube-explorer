@@ -87,7 +87,7 @@ distributed==2023.7.1
     # via datacube
 eodatasets3==0.29.7
     # via datacube-explorer (setup.py)
-exceptiongroup==1.0.0
+exceptiongroup==1.1.2
     # via cattrs
 fiona==1.8.22
     # via datacube-explorer (setup.py)
