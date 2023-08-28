@@ -4,4 +4,4 @@ nbsphinx==0.9.3
 pydata-sphinx-theme==0.13.3
 Sphinx==7.2.4
 sphinx-autodoc-typehints==1.24.0
-sphinx-click==4.2.0
+sphinx-click==5.0.1
