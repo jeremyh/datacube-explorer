@@ -236,7 +236,7 @@ scipy==1.11.3
     #   pyorbital
 sentry-sdk[flask]==1.35.0
     # via datacube-explorer (setup.py)
-shapely==1.8.5.post1
+shapely==2.0.2
     # via
     #   datacube
     #   datacube-explorer (setup.py)
