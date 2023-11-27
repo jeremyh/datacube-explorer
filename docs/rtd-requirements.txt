@@ -33,7 +33,7 @@ cachetools==5.3.2
     # via
     #   datacube
     #   datacube-explorer (setup.py)
-cattrs==22.2.0
+cattrs==23.2.2
     # via eodatasets3
 certifi==2022.9.24
     # via
