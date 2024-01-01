@@ -18,7 +18,7 @@ attrs==23.2.0
     #   rasterio
 blinker==1.7.0
     # via sentry-sdk
-boltons==21.0.0
+boltons==23.1.1
     # via eodatasets3
 boto3==1.26.2
     # via eodatasets3
