@@ -68,7 +68,7 @@ cligj==0.7.2
     # via
     #   fiona
     #   rasterio
-cloudpickle==2.2.0
+cloudpickle==3.0.0
     # via
     #   dask
     #   datacube
