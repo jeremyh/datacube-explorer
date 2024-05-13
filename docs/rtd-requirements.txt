@@ -213,7 +213,7 @@ pytz==2024.1
     # via
     #   datacube-explorer (setup.py)
     #   pandas
-pyyaml==6.0
+pyyaml==6.0.1
     # via
     #   dask
     #   datacube
