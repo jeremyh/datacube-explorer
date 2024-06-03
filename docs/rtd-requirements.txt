@@ -42,7 +42,7 @@ certifi==2024.6.2
     #   rasterio
     #   requests
     #   sentry-sdk
-cftime==1.6.2
+cftime==1.6.3
     # via netcdf4
 charset-normalizer==2.1.1
     # via requests
