@@ -264,7 +264,7 @@ structlog==24.4.0
     #   eodatasets3
 tblib==3.0.0
     # via distributed
-toolz==0.12.0
+toolz==0.12.1
     # via
     #   dask
     #   datacube
