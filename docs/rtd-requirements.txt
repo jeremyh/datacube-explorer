@@ -44,7 +44,7 @@ certifi==2024.8.30
     #   sentry-sdk
 cftime==1.6.4
     # via netcdf4
-charset-normalizer==2.1.1
+charset-normalizer==3.3.2
     # via requests
 ciso8601==2.2.0
     # via eodatasets3
