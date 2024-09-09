@@ -1,5 +1,5 @@
 autodocsumm==0.2.13
-beautifulsoup4==4.11.0
+beautifulsoup4==4.12.3
 nbsphinx==0.8.9
 pydata-sphinx-theme==0.9.0
 Sphinx==4.5.0
