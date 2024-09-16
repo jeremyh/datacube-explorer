@@ -280,7 +280,7 @@ urllib3==2.2.3
     #   sentry-sdk
 werkzeug==3.0.4
     # via flask
-xarray==2022.10.0
+xarray==2024.9.0
     # via
     #   datacube
     #   eodatasets3
