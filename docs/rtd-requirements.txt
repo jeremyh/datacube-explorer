@@ -116,7 +116,7 @@ heapdict==1.0.1
     # via zict
 idna==3.10
     # via requests
-importlib-metadata==5.0.0
+importlib-metadata==8.5.0
     # via flask
 importlib-resources==5.10.0
     # via jsonschema
