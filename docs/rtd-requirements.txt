@@ -209,7 +209,7 @@ python-dateutil==2.9.0.post0
     #   pystac
 python-rapidjson==1.20
     # via eodatasets3
-pytz==2022.6
+pytz==2024.2
     # via
     #   datacube-explorer (setup.py)
     #   pandas
