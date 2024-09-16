@@ -104,7 +104,7 @@ flask-cors==5.0.0
     # via datacube-explorer (setup.py)
 flask-themer==2.0.0
     # via datacube-explorer (setup.py)
-fsspec==2022.10.0
+fsspec==2024.9.0
     # via dask
 geoalchemy2==0.12.5
     # via datacube-explorer (setup.py)
