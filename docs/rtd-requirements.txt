@@ -253,7 +253,7 @@ snuggs==1.4.7
     # via rasterio
 sortedcontainers==2.4.0
     # via distributed
-sqlalchemy==1.4.42
+sqlalchemy==2.0.35
     # via
     #   datacube
     #   datacube-explorer (setup.py)
