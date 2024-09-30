@@ -258,7 +258,7 @@ sqlalchemy==2.0.35
     #   datacube
     #   datacube-explorer (setup.py)
     #   geoalchemy2
-structlog==22.1.0
+structlog==24.4.0
     # via
     #   datacube-explorer (setup.py)
     #   eodatasets3
