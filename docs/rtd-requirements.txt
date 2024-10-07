@@ -77,7 +77,7 @@ dask[array]==2024.9.1
     # via
     #   datacube
     #   distributed
-datacube==1.8.6
+datacube==1.8.19
     # via
     #   datacube-explorer (setup.py)
     #   eodatasets3
