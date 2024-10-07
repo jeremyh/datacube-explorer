@@ -2,6 +2,6 @@ autodocsumm==0.2.13
 beautifulsoup4==4.12.3
 nbsphinx==0.9.5
 pydata-sphinx-theme==0.15.4
-Sphinx==4.5.0
+Sphinx==8.0.2
 sphinx-autodoc-typehints==1.19.0
 sphinx-click==4.2.0
