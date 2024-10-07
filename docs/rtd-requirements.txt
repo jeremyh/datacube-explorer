@@ -106,7 +106,7 @@ flask-themer==2.0.0
     # via datacube-explorer (setup.py)
 fsspec==2024.9.0
     # via dask
-geoalchemy2==0.12.5
+geoalchemy2==0.15.2
     # via datacube-explorer (setup.py)
 geographiclib==2.0
     # via datacube-explorer (setup.py)
