@@ -35,7 +35,7 @@ cachetools==5.5.0
     #   datacube-explorer (setup.py)
 cattrs==24.1.2
     # via eodatasets3
-certifi==2022.9.24
+certifi==2024.8.30
     # via
     #   fiona
     #   pyproj
