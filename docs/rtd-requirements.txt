@@ -185,7 +185,7 @@ psutil==6.0.0
     # via distributed
 psycopg2==2.9.9
     # via datacube
-pyorbital==1.7.3
+pyorbital==1.8.3
     # via datacube-explorer (setup.py)
 pyparsing==3.0.9
     # via
