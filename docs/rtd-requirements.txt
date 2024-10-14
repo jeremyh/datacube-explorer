@@ -146,7 +146,7 @@ markupsafe==3.0.1
     #   datacube-explorer (setup.py)
     #   jinja2
     #   werkzeug
-msgpack==1.0.4
+msgpack==1.1.0
     # via distributed
 munch==2.5.0
     # via fiona
