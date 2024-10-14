@@ -148,7 +148,7 @@ markupsafe==3.0.1
     #   werkzeug
 msgpack==1.1.0
     # via distributed
-munch==2.5.0
+munch==4.0.0
     # via fiona
 netcdf4==1.6.1
     # via datacube
