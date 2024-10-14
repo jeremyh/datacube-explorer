@@ -284,7 +284,7 @@ xarray==2024.9.0
     # via
     #   datacube
     #   eodatasets3
-zict==2.2.0
+zict==3.0.0
     # via distributed
 zipp==3.10.0
     # via
