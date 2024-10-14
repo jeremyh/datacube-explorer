@@ -141,7 +141,7 @@ locket==1.0.0
     # via
     #   distributed
     #   partd
-markupsafe==2.1.1
+markupsafe==3.0.1
     # via
     #   datacube-explorer (setup.py)
     #   jinja2
