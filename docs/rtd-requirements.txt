@@ -16,7 +16,7 @@ attrs==24.2.0
     #   fiona
     #   jsonschema
     #   rasterio
-blinker==1.5
+blinker==1.8.2
     # via sentry-sdk
 boltons==21.0.0
     # via eodatasets3
