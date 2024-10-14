@@ -196,7 +196,7 @@ pyproj==3.7.0
     #   datacube
     #   datacube-explorer (setup.py)
     #   eodatasets3
-pyrsistent==0.19.2
+pyrsistent==0.20.0
     # via jsonschema
 pystac==1.6.1
     # via eodatasets3
