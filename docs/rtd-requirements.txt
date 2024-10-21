@@ -4,51 +4,51 @@
 #
 #    pip-compile setup.py
 #
-affine==2.3.1
+affine==2.4.0
     # via
     #   datacube
     #   eodatasets3
     #   rasterio
-attrs==22.1.0
+attrs==24.2.0
     # via
     #   cattrs
     #   eodatasets3
     #   fiona
     #   jsonschema
     #   rasterio
-blinker==1.5
+blinker==1.8.2
     # via sentry-sdk
-boltons==21.0.0
+boltons==24.0.0
     # via eodatasets3
-boto3==1.26.2
+boto3==1.35.44
     # via eodatasets3
-botocore==1.29.2
+botocore==1.35.44
     # via
     #   boto3
     #   eodatasets3
     #   s3transfer
-cachelib==0.9.0
+cachelib==0.13.0
     # via flask-caching
-cachetools==5.2.0
+cachetools==5.5.0
     # via
     #   datacube
     #   datacube-explorer (setup.py)
-cattrs==22.2.0
+cattrs==24.1.2
     # via eodatasets3
-certifi==2022.9.24
+certifi==2024.8.30
     # via
     #   fiona
     #   pyproj
     #   rasterio
     #   requests
     #   sentry-sdk
-cftime==1.6.2
+cftime==1.6.4
     # via netcdf4
-charset-normalizer==2.1.1
+charset-normalizer==3.4.0
     # via requests
-ciso8601==2.2.0
+ciso8601==2.3.1
     # via eodatasets3
-click==8.1.3
+click==8.1.7
     # via
     #   click-plugins
     #   cligj
@@ -68,61 +68,61 @@ cligj==0.7.2
     # via
     #   fiona
     #   rasterio
-cloudpickle==2.2.0
+cloudpickle==3.1.0
     # via
     #   dask
     #   datacube
     #   distributed
-dask[array]==2022.10.2
+dask[array]==2024.10.0
     # via
     #   datacube
     #   distributed
-datacube==1.8.6
+datacube==1.8.19
     # via
     #   datacube-explorer (setup.py)
     #   eodatasets3
 defusedxml==0.7.1
     # via eodatasets3
-distributed==2022.10.2
+distributed==2024.10.0
     # via datacube
-eodatasets3==0.29.5
+eodatasets3==0.30.6
     # via datacube-explorer (setup.py)
-exceptiongroup==1.0.0
+exceptiongroup==1.2.2
     # via cattrs
-fiona==1.8.22
+fiona==1.10.1
     # via datacube-explorer (setup.py)
-flask==2.1.3
+flask==3.0.3
     # via
     #   datacube-explorer (setup.py)
     #   flask-caching
     #   flask-cors
     #   flask-themer
     #   sentry-sdk
-flask-caching==2.0.1
+flask-caching==2.3.0
     # via datacube-explorer (setup.py)
-flask-cors==3.0.10
+flask-cors==5.0.0
     # via datacube-explorer (setup.py)
-flask-themer==1.4.3
+flask-themer==2.0.0
     # via datacube-explorer (setup.py)
-fsspec==2022.10.0
+fsspec==2024.10.0
     # via dask
-geoalchemy2==0.12.5
+geoalchemy2==0.15.2
     # via datacube-explorer (setup.py)
 geographiclib==2.0
     # via datacube-explorer (setup.py)
-greenlet==2.0.0.post0
+greenlet==3.1.1
     # via sqlalchemy
 heapdict==1.0.1
     # via zict
-idna==3.4
+idna==3.10
     # via requests
-importlib-metadata==5.0.0
+importlib-metadata==8.5.0
     # via flask
-importlib-resources==5.10.0
+importlib-resources==6.4.5
     # via jsonschema
-itsdangerous==2.1.2
+itsdangerous==2.2.0
     # via flask
-jinja2==3.1.2
+jinja2==3.1.4
     # via
     #   datacube-explorer (setup.py)
     #   distributed
@@ -131,7 +131,7 @@ jmespath==1.0.1
     # via
     #   boto3
     #   botocore
-jsonschema==4.17.0
+jsonschema==4.23.0
     # via
     #   datacube
     #   eodatasets3
@@ -141,18 +141,18 @@ locket==1.0.0
     # via
     #   distributed
     #   partd
-markupsafe==2.1.1
+markupsafe==3.0.2
     # via
     #   datacube-explorer (setup.py)
     #   jinja2
     #   werkzeug
-msgpack==1.0.4
+msgpack==1.1.0
     # via distributed
-munch==2.5.0
+munch==4.0.0
     # via fiona
-netcdf4==1.6.1
+netcdf4==1.7.1.post2
     # via datacube
-numpy==1.23.4
+numpy==2.1.2
     # via
     #   cftime
     #   dask
@@ -165,78 +165,78 @@ numpy==1.23.4
     #   scipy
     #   snuggs
     #   xarray
-orjson==3.8.1
+orjson==3.10.9
     # via datacube-explorer (setup.py)
-packaging==21.3
+packaging==24.1
     # via
     #   dask
     #   distributed
     #   geoalchemy2
     #   xarray
-pandas==1.5.1
+pandas==2.2.3
     # via
     #   datacube
     #   xarray
-partd==1.3.0
+partd==1.4.2
     # via dask
 pkgutil-resolve-name==1.3.10
     # via jsonschema
-psutil==5.9.3
+psutil==6.1.0
     # via distributed
-psycopg2==2.9.5
+psycopg2==2.9.10
     # via datacube
-pyorbital==1.7.3
+pyorbital==1.8.3
     # via datacube-explorer (setup.py)
-pyparsing==3.0.9
+pyparsing==3.2.0
     # via
     #   packaging
     #   snuggs
-pyproj==3.4.0
+pyproj==3.7.0
     # via
     #   datacube
     #   datacube-explorer (setup.py)
     #   eodatasets3
-pyrsistent==0.19.2
+pyrsistent==0.20.0
     # via jsonschema
-pystac==1.6.1
+pystac==1.11.0
     # via eodatasets3
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via
     #   botocore
     #   datacube
     #   datacube-explorer (setup.py)
     #   pandas
     #   pystac
-python-rapidjson==1.9
+python-rapidjson==1.20
     # via eodatasets3
-pytz==2022.6
+pytz==2024.2
     # via
     #   datacube-explorer (setup.py)
     #   pandas
-pyyaml==6.0
+pyyaml==6.0.2
     # via
     #   dask
     #   datacube
     #   distributed
-rasterio==1.3.3
+rasterio==1.4.1
     # via
     #   datacube
     #   eodatasets3
-requests==2.28.1
+requests==2.32.3
     # via pyorbital
 ruamel-yaml==0.17.21
     # via eodatasets3
 ruamel-yaml-clib==0.2.7
     # via ruamel-yaml
-s3transfer==0.6.0
+s3transfer==0.10.3
     # via boto3
-scipy==1.9.3
+scipy==1.14.1
     # via
     #   eodatasets3
     #   pyorbital
-sentry-sdk[flask]==1.10.1
+sentry-sdk[flask]==2.17.0
     # via datacube-explorer (setup.py)
-shapely==1.8.5.post1
+shapely==2.0.6
     # via
     #   datacube
     #   datacube-explorer (setup.py)
@@ -253,40 +253,40 @@ snuggs==1.4.7
     # via rasterio
 sortedcontainers==2.4.0
     # via distributed
-sqlalchemy==1.4.42
+sqlalchemy==2.0.36
     # via
     #   datacube
     #   datacube-explorer (setup.py)
     #   geoalchemy2
-structlog==22.1.0
+structlog==24.4.0
     # via
     #   datacube-explorer (setup.py)
     #   eodatasets3
-tblib==1.7.0
+tblib==3.0.0
     # via distributed
-toolz==0.12.0
+toolz==1.0.0
     # via
     #   dask
     #   datacube
     #   distributed
     #   partd
-tornado==6.1
+tornado==6.4.1
     # via distributed
-urllib3==1.26.12
+urllib3==2.2.3
     # via
     #   botocore
     #   distributed
     #   requests
     #   sentry-sdk
-werkzeug==2.2.2
+werkzeug==3.0.4
     # via flask
-xarray==2022.10.0
+xarray==2024.9.0
     # via
     #   datacube
     #   eodatasets3
-zict==2.2.0
+zict==3.0.0
     # via distributed
-zipp==3.10.0
+zipp==3.20.2
     # via
     #   importlib-metadata
     #   importlib-resources
