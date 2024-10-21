@@ -278,7 +278,7 @@ urllib3==2.2.3
     #   distributed
     #   requests
     #   sentry-sdk
-werkzeug==2.2.2
+werkzeug==3.0.4
     # via flask
 xarray==2022.10.0
     # via
