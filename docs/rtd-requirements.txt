@@ -270,7 +270,7 @@ toolz==1.0.0
     #   datacube
     #   distributed
     #   partd
-tornado==6.1
+tornado==6.4.1
     # via distributed
 urllib3==1.26.12
     # via
