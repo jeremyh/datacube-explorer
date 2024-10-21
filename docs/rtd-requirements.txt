@@ -73,7 +73,7 @@ cloudpickle==3.1.0
     #   dask
     #   datacube
     #   distributed
-dask[array]==2022.10.2
+dask[array]==2024.10.0
     # via
     #   datacube
     #   distributed
