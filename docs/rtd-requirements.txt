@@ -85,7 +85,7 @@ defusedxml==0.7.1
     # via eodatasets3
 distributed==2024.10.0
     # via datacube
-eodatasets3==0.29.5
+eodatasets3==0.30.6
     # via datacube-explorer (setup.py)
 exceptiongroup==1.0.0
     # via cattrs
