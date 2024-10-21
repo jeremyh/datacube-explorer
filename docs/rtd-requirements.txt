@@ -165,7 +165,7 @@ numpy==2.1.2
     #   scipy
     #   snuggs
     #   xarray
-orjson==3.8.1
+orjson==3.10.9
     # via datacube-explorer (setup.py)
 packaging==21.3
     # via
