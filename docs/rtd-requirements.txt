@@ -181,7 +181,7 @@ partd==1.4.2
     # via dask
 pkgutil-resolve-name==1.3.10
     # via jsonschema
-psutil==5.9.3
+psutil==6.1.0
     # via distributed
 psycopg2==2.9.5
     # via datacube
