@@ -98,7 +98,7 @@ flask==3.0.3
     #   flask-cors
     #   flask-themer
     #   sentry-sdk
-flask-caching==2.0.1
+flask-caching==2.3.0
     # via datacube-explorer (setup.py)
 flask-cors==3.0.10
     # via datacube-explorer (setup.py)
