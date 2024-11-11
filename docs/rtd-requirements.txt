@@ -120,7 +120,7 @@ importlib-metadata==8.5.0
     # via flask
 importlib-resources==6.4.5
     # via jsonschema
-itsdangerous==2.1.2
+itsdangerous==2.2.0
     # via flask
 jinja2==3.1.2
     # via
