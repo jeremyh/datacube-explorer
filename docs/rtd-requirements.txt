@@ -102,7 +102,7 @@ flask-caching==2.3.0
     # via datacube-explorer (setup.py)
 flask-cors==5.0.0
     # via datacube-explorer (setup.py)
-flask-themer==1.4.3
+flask-themer==2.0.0
     # via datacube-explorer (setup.py)
 fsspec==2022.10.0
     # via dask
